@@ -1,0 +1,128 @@
+.navbar {
+  background: var(--bg--primary);
+  padding: 16px;
+  background: #28293e;
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  gap: 80px;
+  list-style: none;
+  color: #fff;
+}
+.nav__burger-btn {
+  display: none;
+}
+
+.hero {
+  background: #28293e;
+}
+
+.nav__burger-btn__span {
+  width: 12px;
+  height: 2px;
+  background: #fff;
+}
+
+.hero__card {
+  padding-top: 104px;
+
+  &__title {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: -2px;
+    text-align: center;
+    color: #fff;
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffffa3;
+    margin-top: 24px;
+  }
+}
+
+.portfolio-projects {
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 68px;
+  }
+
+  .portfolio-projects__list__item a {
+    color: #391400;
+  }
+
+  &__categories-selection {
+    display: none;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .portfolio-projects__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+    gap: 30px;
+  }
+
+  .portfolio-projects__btn {
+    background: #ffffff;
+    color: #000;
+    margin-left: 500px;
+    margin-top: 80px;
+  }
+}
+
+.service__wrapper {
+  display: flex;
+}
+
+.service__card {
+  background: #ef6d58;
+  width: 1170px;
+  height: 544px;
+  display: flex;
+  gap: 100px;
+  margin-top: 100px;
+  padding-top: 41px;
+  border-radius: 6px;
+}
+
+.service__card__text__title {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #fff;
+  margin-top: 96px;
+  margin-left: 100px;
+}
+
+.service__card__text__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #ffffffa3;
+  margin-left: 100px;
+  margin-top: 28px;
+}
+
+.service__card__text__btn {
+  margin-left: 100px;
+  margin-top: 34px;
+}

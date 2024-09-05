@@ -1,0 +1,64 @@
+@media (max-width: 570px) {
+  .nav__burger-btn {
+    display: flex;
+  }
+
+  .nav__list {
+    display: none;
+  }
+
+  .nav__contact-btn {
+    display: none;
+  }
+
+  .hero__card{
+
+    flex-wrap: wrap;
+    max-width: 90%;
+  }
+
+  .portfolio-projects{
+   
+    &__list{
+        display: none;
+    }
+
+    &__categories-selection{
+      display: block;
+      margin-top: 28px;
+    }
+  }
+
+  .portfolio-projects__wrapper{
+   flex-wrap: wrap;
+  
+  }
+
+  .portfolio-projects__btn{
+    display: none;
+  }
+
+  .portfolio-projects__wrapper__Img img{
+    max-width: 90%;
+  }
+
+ 
+  
+ .service__card{
+  flex-wrap: wrap;
+  height: 1200px;
+  
+ }
+
+ .service__card__text{
+  max-width: 90%;
+ }
+
+ .service__card__img img{
+  max-width: 90%;
+ }
+  
+ 
+}
+
+
